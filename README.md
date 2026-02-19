@@ -1,21 +1,46 @@
-# Portfolio Performance & Risk Analysis
+# Portfolio Performance Dashboard (Excel)
 
 ## Overview
-This project analyzes the performance of a simulated U.S. equity portfolio (NYSE & NASDAQ) managed using the Investopedia Simulator (Dec 2024–Present).
+This project presents a dynamic portfolio performance dashboard built in Microsoft Excel, covering the period:
+
+27 Dec 2024 – 14 Feb 2026
+
+The dashboard evaluates portfolio performance using return, risk, and risk-adjusted metrics, along with visual analytics.
 
 ## Objectives
-- Evaluate cumulative return
-- Calculate annualized return
+- Calculate cumulative and annualized returns
 - Measure portfolio volatility
-- Assess risk-adjusted performance (Sharpe ratio)
+- Evaluate risk-adjusted performance using Sharpe Ratio
+- Visualize return distribution and capital allocation
 
-## Key Results
-- Cumulative Return: 12.99%
-- Annualized Return: 11.75%
-- Annualized Volatility: 144.43%
-- Sharpe Ratio (rf = 0): 0.08
+## Key Metrics
+- Cumulative Return: 13.82%
+- Annualized Return (CAGR): 12.40%
+- Annualized Volatility: 39.23%
+- Sharpe Ratio: 0.47
+
+## Dashboard Components
+- Portfolio Value Time Series (Line Chart) - 
+  Tracks portfolio growth over time
+
+- Daily Return Distribution (Histogram) - 
+  Visualizes return dispersion and volatility characteristics
+   
+- Portfolio Allocation (Pie Chart) - 
+  Breakdown of Cash, Stock, Options, and Short positions
+
+## Methodology
+- Daily returns calculated using percentage change in account value
+- Annualized return computed using CAGR formula
+- Volatility annualized using √252 trading-day convention
+- Sharpe Ratio calculated assuming risk-free rate = 0
 
 ## Tools Used
-- Excel
-- Performance metrics analysis
+- Microsoft Excel
+- Statistical functions (AVERAGE, STDEV.S, COUNT)
+- Dynamic cell referencing
+- Data visualization tools (charts, formatting)
+
+## Dashboard Preview
+
 
